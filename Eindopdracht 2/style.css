@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: grey;
+  background-repeat: none;
+  background-size: cover;
+}
+
+.div1 {
+  background-color: rgb(75, 7, 7);
+  height: 70px;
+  margin-top: -1rem;
+}
+
+.div1 p {
+  color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 2rem;
+  font-size: large;
+}
+
+.div2 {
+  background-color: black;
+  height: 30px;
+}
+
+.div2 a {
+  color: white;
+  margin-left: 1rem;
+  text-decoration: none;
+  font-size: large;
+}
+
+.div2 a:hover {
+  background-color: rgb(219, 76, 100);
+}
+
+.div3 {
+  background-image: url(img/logo_bruin.png);
+  height: 200px;
+  width: 300px;
+  margin-left: 72rem;
+}
+
+.div4 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 4rem;
+}
+
+.div5 {
+  background-color: black;
+  margin-left: -9rem;
+  border-radius: 8px;
+  height: 600px;
+}
+
+.winkelstelling {
+  margin-left: 5rem;
+  color: white;
+}
+
+.div5 img {
+  margin-left: 5rem;
+}
+
+.div6 {
+  background-color: black;
+  opacity: 0.6;
+  margin-bottom: 8rem;
+  width: 250px;
+  border-radius: 8px;
+  height: 600px;
+}
+
+.div6 h1, p {
+  color: white;
+}
+
+.div6 a {
+  color: rgb(224, 89, 112);
+}
+
+.div6 h1, p, a {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}/*# sourceMappingURL=style.css.map */
